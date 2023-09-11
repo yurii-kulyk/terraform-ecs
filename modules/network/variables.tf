@@ -1,11 +1,3 @@
-variable "region" {
-  description = "AWS Region"
-}
-
-variable "profile" {
-  description = "AWS Profile"
-}
-
 variable "vpc_cidr_block" {
   description = "CIDR Block for VPC"
   default     = "10.0.0.0/16"
